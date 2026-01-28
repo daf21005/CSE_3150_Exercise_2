@@ -13,7 +13,7 @@ struct Student {
         name = _name;
         final = _final;
         number_of_homeworks = _number_of_homeworks;
-        hw_grades = new int(number_of_homeworks);
+        hw_grades = new int[number_of_homeworks];
     }
     ~Student(){
         if (nullptr != hw_grades){
