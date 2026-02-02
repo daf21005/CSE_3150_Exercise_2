@@ -27,7 +27,10 @@ Student get_student_struct_data() {
     for (int i = 0; i < student.number_of_homeworks; i++) {
         cin >> score;
         student.hw_grades[i] = score;
-        cout << "Enter another score: " << endl;
+        if (i < student.number_of_homeworks - 1){
+            cout << "Enter another score: " << endl;
+        }
+        
     }
 
     return student;

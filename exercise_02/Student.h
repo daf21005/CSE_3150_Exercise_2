@@ -25,10 +25,8 @@ struct Student {
     // by default these are public
     string name;
     int final;
-    // int midterm;
-    // vector<int> hw_grades;
     int number_of_homeworks;
-    int * hw_grades;
+    int * hw_grades; // this is our so called scores
 };
 
 // our declaration
